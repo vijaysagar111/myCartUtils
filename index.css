@@ -1,0 +1,147 @@
+@font-face {
+  font-family: "HurmeGeometricSans1";
+  src: url("./assets/HurmeGeometricSans1.otf");
+}
+
+.tabcontent {
+  display: none;
+}
+
+.title .active {
+  border-bottom: 5px solid rgb(0, 74, 77);
+  margin-bottom: 0;
+}
+.container {
+  box-sizing: border-box;
+  font-family: "HurmeGeometricSans1", "san-serif";
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.13), 1px 2px 2px rgba(0, 0, 0, 0.1),
+    -1px -2px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+body {
+  max-width: 500px;
+  margin: auto;
+  height: 100%;
+}
+
+.profile {
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.profile__part #adjust {
+  display: inline-block;
+  width: 100px;
+  margin-left: 20;
+  margin-bottom: 0;
+}
+
+#id {
+  margin-left: 20px;
+  margin-top: 5;
+  font-size: 12px;
+  color: rgb(105, 105, 105);
+}
+
+.ratings {
+  padding: 10px;
+  width: 100%;
+  margin-top: 20px;
+  text-align: right;
+}
+.ratings p {
+  margin-top: 2;
+}
+.totallist div {
+  display: inline-block;
+  margin-right: 20;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  border-bottom: 1px solid rgb(209, 201, 201);
+  box-shadow: 0px 2px 0px silver;
+}
+
+.totalitems p {
+  color: rgb(105, 105, 105);
+}
+h3::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  margin-right: 5px;
+  background-color: rgb(0, 74, 77);
+  height: 15px;
+}
+
+.cards {
+  margin: 10 20px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.13), 1px 2px 2px rgba(0, 0, 0, 0.1),
+    -1px -2px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  height: 110px;
+  background-color: #fff;
+}
+
+.cards .image {
+  margin-right: 10px;
+}
+
+.data {
+  width: 60%;
+}
+
+.data p i {
+  color: gold;
+}
+.upcoming {
+  text-align: right;
+  width: 40%;
+  margin-right: 2;
+}
+
+.ratings p i {
+  color: gold;
+}
+.statusbar {
+  color: rgb(0, 74, 77);
+  border-bottom: 1px solid rgba(68, 68, 68, 0.1);
+}
+
+.list {
+  padding: 0;
+  margin-top: 0;
+  background-color: rgb(241, 241, 246);
+  transition: all 3s ease-in-out;
+}
+
+#available {
+  padding: 0;
+  margin-top: 0;
+  background-color: rgb(241, 241, 246);
+}
+.upcoming {
+  margin-right: 20px;
+}
+
+.line::after {
+  content: "";
+  display: inline-block;
+  width: 50px;
+  height: 1px;
+  margin-left: 10;
+  background-color: rgb(0, 74, 77);
+}
+
+.heading p {
+  display: flex;
+  align-items: center;
+}
